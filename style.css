@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+*::selection{
+    background-color: #7839a1;
+    color: white;
+}
+h2{
+    text-transform: uppercase;
+}
+/* The animation code */
+@keyframes my-animation {
+    from {
+      top: 0;
+    }
+    to {
+      top: 20%;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .home{
+        height: 80vh;
+    }
+    .hey {
+        text-align: center;
+        align-items: center;
+        /* background-color: #7209b7; */
+        width: 70%;
+        margin: auto;
+        margin-top: 40px;
+    }
+    .profile{
+        margin: 12px;
+    }
+    .projects-btn{
+        margin-bottom: 100px;
+    }
+    .home{
+        height: 70vh;
+    }
+
+}
+@media screen and (max-width :725px){
+    .arrow{
+        display: none;
+    }
+    .fa-arrow-down{
+        display: none;
+    }
+    
+}
+@media screen and (min-width: 551px) {
+    .hey {
+      margin-top: 100px;
+      font-size: 55px;
+    }
+    .home{
+        height: 100vh;
+    }
+
+}
+.navbar-toggler{
+    outline: none;
+    border: none;
+}
+
+.nav-item .nav-link{
+    font-weight: bold;
+}
+.profile:hover .logo{
+    color: #7209b7;
+}
+
+.logo{
+    font-family: 'Kanit', sans-serif;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 1.4px;
+    word-spacing: 2px;
+    transition: 80ms;
+}
+
+.side-bar{
+    width: 55px;
+    top:45%;
+    /* z-index: -1; */
+}
+.nav-parent{
+    z-index: 9;
+}
+.nav-link{
+    text-transform:capitalize ;
+}
+.fa{
+    transition: 220ms
+}
+.contact i{
+    font-size: 26px;
+}
+
+.contact:hover> i{
+    color: #7209b7;
+}
+
+main{
+    z-index: -9;
+    height: 150vw;
+}
+.home{
+    background-image:url('https://img.freepik.com/free-vector/elegant-white-background-with-shiny-lines_1017-17580.jpg?w=740&t=st=1678909421~exp=1678910021~hmac=c6229cfc9af94e7812862f682f8885a865bb53270948f15f3619c15c72a3351e');
+    background-size: cover;
+    background-repeat :no-repeat ;
+}
+
+.hey{
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+.about{
+    /* background-color: #7
+    209b7; */
+    align-items: center;
+    text-align: center;
+    text-transform: capitalize;
+}
+.btn-projects{
+    width: 180px;
+}
+.btn-contact{
+    width: 180px;
+}
+.arrow{
+    height: 50px;
+    width: 60px;
+    position: relative;
+    text-align: center;
+    font-style: normal;
+    top: 100px;
+}
+
+.fa-arrow-down{
+    right: 20%;
+    animation-name: my-animation;
+    animation-duration: 0.8s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+.my-skills{
+    width: min-content;
+    background-color: #7209b7;
+}
+.about-1{
+    box-shadow:0px 10px 10px #6c5c7748;
+}
+span.badge{
+    background-color: #ededed;
+    color: black;
+    margin: 10px;
+}
+.get-me-text{
+    color: slategray;
+}
+span.important{
+    font-weight: 500;
+    color: #7209b7;
+}
+
+a , .link{
+    text-decoration: none;
+}
+.not-mine{
+    align-items: center;
+    text-align: center;
+    color: rgb(150, 0, 0);
+}
+.card-link{
+    text-decoration: none;
+    color: #7209b7;
+}
